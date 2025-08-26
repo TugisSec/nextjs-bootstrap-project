@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Software Engineer</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="font-inter bg-gray-50">
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full bg-white/80 backdrop-blur-md z-50 transition-all duration-300">
+        <div class="max-w-6xl mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <div class="text-xl font-semibold text-gray-800">Portfolio</div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#home" class="nav-link text-gray-600 hover:text-gray-900 transition-colors duration-300">Home</a>
+                    <a href="#about" class="nav-link text-gray-600 hover:text-gray-900 transition-colors duration-300">About</a>
+                    <a href="#experience" class="nav-link text-gray-600 hover:text-gray-900 transition-colors duration-300">Experience</a>
+                    <a href="#skills" class="nav-link text-gray-600 hover:text-gray-900 transition-colors duration-300">Skills</a>
+                    <a href="#work" class="nav-link text-gray-600 hover:text-gray-900 transition-colors duration-300">Work</a>
+                    <a href="#contact" class="nav-link text-gray-600 hover:text-gray-900 transition-colors duration-300">Contact</a>
+                </div>
+                <div class="md:hidden">
+                    <button id="mobile-menu-btn" class="text-gray-600 hover:text-gray-900">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="min-h-screen flex items-center bg-gradient-to-br from-gray-50 to-gray-100">
+        <div class="max-w-6xl mx-auto px-6 py-20">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="order-2 md:order-1 fade-in-up">
+                    <h1 class="text-5xl md:text-6xl font-bold text-gray-900 mb-4 animate-fade-in">
+                        Sari Purdue
+                    </h1>
+                    <p class="text-xl text-gray-600 mb-8 animate-fade-in-delay">
+                        Software Engineer
+                    </p>
+                    <button class="bg-gray-900 text-white px-8 py-3 rounded-lg hover:bg-gray-800 transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
+                        Reach out
+                    </button>
+                </div>
+                <div class="order-1 md:order-2 flex justify-center">
+                    <div class="relative">
+                        <img src="https://placehold.co/400x500?text=Professional+Portrait+Photo" alt="Sari Purdue - Software Engineer" class="rounded-2xl shadow-2xl transform hover:scale-105 transition-transform duration-500">
+                        <div class="absolute -bottom-4 -right-4 w-24 h-24 bg-green-500 rounded-full opacity-20 animate-pulse"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="py-20 bg-gray-200">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="fade-in-left">
+                    <h2 class="text-4xl font-bold text-gray-900 mb-8">About Me</h2>
+                    <p class="text-gray-700 mb-6 leading-relaxed">
+                        I am a passionate software engineer with extensive experience in business applications. I'm eager to join your team to build out-of-the-box solutions for regional clients. I am skilled in developing plans, managing projects, and writing documentation.
+                    </p>
+                    <p class="text-gray-700 leading-relaxed">
+                        With a strong foundation in modern web technologies and a keen eye for user experience, I strive to create applications that are not only functional but also intuitive and engaging.
+                    </p>
+                </div>
+                <div class="fade-in-right">
+                    <img src="https://placehold.co/500x400?text=Professional+Workspace+Setup" alt="Professional workspace" class="rounded-2xl shadow-xl transform hover:scale-105 transition-transform duration-500">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience & Education Section -->
+    <section id="experience" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-4xl font-bold text-gray-900 mb-16 text-center fade-in-up">Experience & Education</h2>
+            
+            <div class="space-y-12">
+                <!-- Experience Item 1 -->
+                <div class="flex flex-col md:flex-row gap-8 items-start timeline-item">
+                    <div class="md:w-24 text-2xl font-bold text-gray-400">2020</div>
+                    <div class="flex-1">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">SENIOR SOFTWARE ENGINEER</h3>
+                        <p class="text-gray-600 mb-2">HUMAN SOFTWARE LABS</p>
+                        <p class="text-gray-700">
+                            Provides direction for applications in development. Researches and develops new ways to improve our development process. Mentors junior developers and leads technical discussions.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Experience Item 2 -->
+                <div class="flex flex-col md:flex-row gap-8 items-start timeline-item">
+                    <div class="md:w-24 text-2xl font-bold text-gray-400">2017</div>
+                    <div class="flex-1">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">JUNIOR SOFTWARE ENGINEER</h3>
+                        <p class="text-gray-600 mb-2">HUMAN SOFTWARE LABS</p>
+                        <p class="text-gray-700">
+                            Developed, modified, and configured commercial applications, as well as new application releases with test and production environments.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Education Item -->
+                <div class="flex flex-col md:flex-row gap-8 items-start timeline-item">
+                    <div class="md:w-24 text-2xl font-bold text-gray-400">2015</div>
+                    <div class="flex-1">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">MASTER OF SCIENCE IN SOFTWARE ENGINEERING</h3>
+                        <p class="text-gray-600 mb-2">Bay University</p>
+                        <p class="text-gray-700">
+                            Vermillion Bay<br>
+                            Human Software Lab Scholar
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills & Proficiencies Section -->
+    <section id="skills" class="py-20 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <p class="text-gray-600 mb-2">YOUR PRE-TITLE GOES HERE</p>
+                <h2 class="text-4xl font-bold text-gray-900 fade-in-up">Skills & Proficiencies</h2>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-12">
+                <!-- Technical Skills -->
+                <div class="fade-in-left">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-6">TECHNICAL SKILLS</h3>
+                    <div class="space-y-4">
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="text-gray-700">Java, HTML, CSS, jQuery, PHP, SQL</span>
+                                <span class="text-gray-500">90%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="bg-gray-900 h-2 rounded-full skill-bar" data-width="90%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="text-gray-700">JavaScript and AJAX development</span>
+                                <span class="text-gray-500">85%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="bg-gray-900 h-2 rounded-full skill-bar" data-width="85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Languages -->
+                <div class="fade-in-right">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-6">LANGUAGES</h3>
+                    <div class="space-y-4">
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="text-gray-700">American English (Native)</span>
+                                <span class="text-gray-500">100%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="bg-gray-900 h-2 rounded-full skill-bar" data-width="100%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="text-gray-700">Spanish (B2 Certificate)</span>
+                                <span class="text-gray-500">75%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="bg-gray-900 h-2 rounded-full skill-bar" data-width="75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sample Work Section -->
+    <section id="work" class="py-20 bg-gray-900 text-white">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-16 fade-in-up">Sample Work</h2>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div class="work-item bg-gray-800 rounded-xl overflow-hidden transform hover:scale-105 transition-all duration-300 hover:shadow-2xl">
+                    <img src="https://placehold.co/400x250?text=Human+Software+Internal+System" alt="Human Software's Internal" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-3">Human Software's Internal</h3>
+                        <p class="text-gray-300 text-sm">
+                            I led my team in developing applications that would improve our company's internal processes.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="work-item bg-gray-800 rounded-xl overflow-hidden transform hover:scale-105 transition-all duration-300 hover:shadow-2xl">
+                    <img src="https://placehold.co/400x250?text=Bento+Inc+HR+System" alt="Bento Inc.'s HR System" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-3">Bento Inc.'s HR System</h3>
+                        <p class="text-gray-300 text-sm">
+                            As an intern, I helped create a more human-friendly HR system that streamlined employee information.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="work-item bg-gray-800 rounded-xl overflow-hidden transform hover:scale-105 transition-all duration-300 hover:shadow-2xl">
+                    <img src="https://placehold.co/400x250?text=Junior+Software+Engineers+Training" alt="Junior Software Engineers" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-3">Junior Software Engineers</h3>
+                        <p class="text-gray-300 text-sm">
+                            I established a training program for newly hired junior software engineers.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-black text-white">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="fade-in-left">
+                    <img src="https://placehold.co/400x500?text=Professional+Contact+Photo" alt="Sari Purdue Contact" class="rounded-2xl shadow-2xl">
+                </div>
+                <div class="fade-in-right">
+                    <h2 class="text-4xl font-bold mb-8">Reach out</h2>
+                    <div class="space-y-4 mb-8">
+                        <h3 class="text-xl font-semibold">Sari Purdue</h3>
+                        <p class="text-gray-300">hello@saripurdue.com</p>
+                    </div>
+                    <div>
+                        <p class="text-gray-300 mb-4">CONNECT WITH ME</p>
+                        <div class="flex space-x-4">
+                            <a href="#" class="w-10 h-10 bg-white text-black rounded-full flex items-center justify-center hover:bg-gray-200 transition-colors duration-300">
+                                <span class="font-bold">in</span>
+                            </a>
+                            <a href="#" class="w-10 h-10 bg-white text-black rounded-full flex items-center justify-center hover:bg-gray-200 transition-colors duration-300">
+                                <span class="font-bold">tw</span>
+                            </a>
+                            <a href="#" class="w-10 h-10 bg-white text-black rounded-full flex items-center justify-center hover:bg-gray-200 transition-colors duration-300">
+                                <span class="font-bold">fb</span>
+                            </a>
+                            <a href="#" class="w-10 h-10 bg-white text-black rounded-full flex items-center justify-center hover:bg-gray-200 transition-colors duration-300">
+                                <span class="font-bold">ig</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
