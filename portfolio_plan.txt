@@ -1,0 +1,26 @@
+# Portfolio Website Development Plan
+
+## 1. Create HTML Structure
+- Define sections:
+  - Header
+  - About Me
+  - Experience & Education
+  - Skills & Proficiencies
+  - Sample Work
+  - Reach Out
+- Use semantic HTML elements for better accessibility.
+
+## 2. Style with CSS
+- Use Tailwind CSS for utility-based styling.
+- Implement smooth transitions for hover effects and scrolling.
+
+## 3. Add JavaScript
+- Implement smooth scrolling for navigation links.
+- Add any necessary interactivity.
+
+## 4. Testing
+- Verify responsiveness across different devices.
+- Check for accessibility features.
+
+## 5. Deployment
+- Prepare the project for deployment.
